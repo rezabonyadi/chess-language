@@ -1,4 +1,5 @@
 # chess-language
+Read the full article here: [From Text to Tactics: Reinforcing Chess Reasoning in a Language Model](https://www.linkedin.com/pulse/text-tactics-reinforcing-chess-reasoning-language-model-reza-bonyadi-s8eqf)
 This repository demonstrates how to teach a large language model (LLM) to play chess—and explain its moves—through reinforcement learning. By framing each problem as a textual prompt with an XML‐like structure (<reasoning>...</reasoning><answer>...</answer>), the model gradually learns to produce high‐quality “chain‐of‐thought” explanations alongside legitimate chess moves.
 
 A key component is the custom reward function that scores each output based on (1) correct format, (2) move validity, (3) move legality, and (4) Stockfish’s engine evaluation of the resulting position. This multi-step reward guides the model from simply complying with the XML format to ultimately proposing stronger, more strategic moves.

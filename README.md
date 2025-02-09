@@ -1,4 +1,4 @@
-# chess-language
+# Language models to learn to think and play chess
 Read the full article here: [From Text to Tactics: Reinforcing Chess Reasoning in a Language Model](https://www.linkedin.com/pulse/text-tactics-reinforcing-chess-reasoning-language-model-reza-bonyadi-s8eqf)
 
 This repository demonstrates how to teach a large language model (LLM) to play chess—and explain its moves—through reinforcement learning. By framing each problem as a textual prompt with an XML‐like structure (<reasoning>...</reasoning><answer>...</answer>), the model gradually learns to produce high‐quality “chain‐of‐thought” explanations alongside legitimate chess moves.
